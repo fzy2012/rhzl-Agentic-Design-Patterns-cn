@@ -225,6 +225,39 @@ python codes/Chapter-01-Prompt-Chaining-Example.py
 
 ---
 
+## 🧭 Maintainers / Roadmap / Codex Usage Plan | <mark>维护者 / 路线图 / Codex 使用计划</mark>
+
+### Maintainers | <mark>维护者</mark>
+
+- **Core Maintainer**: [入行365](https://www.ruhang365.cn) team
+  - <mark><strong>核心维护者：</strong>[入行365](https://www.ruhang365.cn) 团队负责项目方向、版本发布、翻译质量门槛与社区协作。</mark>
+- **Translation Contributors**: chapter owners listed in the translation progress table
+  - <mark><strong>翻译贡献者：</strong>以「翻译进度」表中的章节负责人为准，负责对应章节的翻译、校对或交叉评审。</mark>
+- **Original Work**: Antonio Gulli, Springer
+  - <mark><strong>原始作品：</strong>原书版权归作者和出版社所有，本仓库仅维护中文学习翻译与配套说明。</mark>
+
+### Roadmap | <mark>路线图</mark>
+
+- **v1.0.0**: Establish the first formal public release, README maintenance plan, current translation progress, and contribution baseline.
+  - <mark><strong>v1.0.0：</strong>建立首个正式公开版本，明确 README 维护计划、当前翻译进度与社区贡献基线。</mark>
+- **v1.1.x**: Complete AI-assisted drafts for remaining chapters and appendices, then keep chapter status tables synchronized.
+  - <mark><strong>v1.1.x：</strong>补齐剩余章节与附录的 AI 辅助初译，并持续同步章节状态表。</mark>
+- **v1.2.x**: Prioritize human review and cross-review for translated chapters, especially production patterns and appendices.
+  - <mark><strong>v1.2.x：</strong>优先推进已翻译章节的人工评审与交叉评审，重点覆盖生产设计模式与附录内容。</mark>
+- **v2.0.0**: Publish a fully reviewed bilingual edition with stable terminology, verified links, and runnable code-example notes.
+  - <mark><strong>v2.0.0：</strong>发布完整评审版中英文对照内容，统一术语、验证链接，并补齐可运行代码示例说明。</mark>
+
+### Codex Usage Plan | <mark>Codex 使用计划</mark>
+
+- Use Codex for focused maintenance tasks: README updates, release notes, Markdown consistency checks, terminology scans, and link-check preparation.
+  - <mark><strong>适用范围：</strong>Codex 主要用于 README 更新、Release Notes、Markdown 一致性检查、术语扫描与链接检查准备。</mark>
+- Every Codex-assisted change must read `AGENTS.md` and `rules/rules.md`, preserve original English text, and modify only the targeted files.
+  - <mark><strong>协作边界：</strong>每次 Codex 辅助改动都必须读取 <code>AGENTS.md</code> 与 <code>rules/rules.md</code>，保留英文原文，只修改目标文件。</mark>
+- Before publishing releases, Codex should verify `git status`, inspect the diff, run available Markdown checks, and document any remaining risks.
+  - <mark><strong>发布前检查：</strong>发布 Release 前，Codex 应检查 <code>git status</code>、审阅 diff、运行可用 Markdown 检查，并记录剩余风险。</mark>
+
+---
+
 ## 🤝 贡献指南 | Contributing
 
 欢迎社区贡献！你可以通过以下方式参与：
